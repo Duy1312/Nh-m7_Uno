@@ -1,10 +1,14 @@
-html, body {
-    margin: 0;
-    padding: 0;
-    background-color: #00897B;
-  }
-  ​
-  canvas {
-    margin: auto;
-    display: block;
-  }
+body {
+  background-color: #404040;
+}
+
+.canvasParent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4% 0;
+}
+
+.canvasParent canvas {
+  background-color: #fff;
+}
