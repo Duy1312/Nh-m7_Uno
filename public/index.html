@@ -1,20 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Uno - Nhom 7</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-    <h1>Hello World</h1>
-    <canvas id="canvas" width="1000" height="600"></canvas>
-    <script src="/socket.io/socket.io.js"></script>
-    <script src="./main.js"></script>  
-</body>
-<script src="/socket.io/socket.io.js"></script>
-<script>
-   var socket = io();
-</script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Uno</title>
+    <link rel="stylesheet" href="./index.css" />
+
+    <!-- Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merienda&family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <div class="main">
+        <p class="title">UNO</p>
+        <div class="logoContainer">
+          <div class="redLogo"></div>
+          <div class="yellowLogo"></div>
+          <div class="greenLogo"></div>
+          <div class="blueLogo"></div>
+        </div>
+
+        <div class="buttonContainer">
+          <div class="buttonContainer">
+            <p>Create Room</p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script language="javascript" src="/socket.io/socket.io.js"></script>
+    <script language="javascript" src="./common.js"></script>
+    <script language="javascript" src="./index.js"></script>
+  </body>
 </html>
