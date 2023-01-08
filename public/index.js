@@ -150,3 +150,13 @@ socket.on("m_RoomJoined", (roomCode) => {
   e_enterNameDlg.style.display = "none";
   nEnterNameDlgState = StateEnterName_Invalid;
 });
+/*socket.on ("m_ShowJoinRoomEnterBtn", (bShow) => {
+    if (bShow)
+    {
+        e_enterName_submitBtn.style.display = "flex";
+    }
+    else
+    {
+        e_enterName_submitBtn.style.display = "none";
+    }
+});*/
